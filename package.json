@@ -4,11 +4,22 @@
   "description": "Responsive Portofolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Ferry Yudhitama",
   "license": "ISC",
+  "homepage":"https://ferryyudhitama.github.io/myportofolio"
   "dependencies": {
+    "gh-pages": "^2.0.0",
     "node-sass": "^4.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferryyudhitama/modern_portofolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ferryyudhitama/modern_portofolio/issues"
+  },
+  "homepage": "https://github.com/ferryyudhitama/modern_portofolio#readme"
 }
