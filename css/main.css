@@ -55,7 +55,8 @@
     .menu-branding .potrait {
       width: 250px;
       height: 250px;
-      background: url(../img/potrait.jpg);
+      background: url(../img/tt.jpg);
+      background-size:cover;
       border: radius 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
